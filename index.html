@@ -24,6 +24,15 @@
                 <input type="text" id="lastname" name="lastname" required
                     minlength="2"
                     maxlength="35">
+                <!-- add label: You Age
+                    add a 'for' attriute and set to 'age' -->
+                <label for="age">Your Age</label>
+
+                <!-- create input tag, set tag type to number, set id and name to value:age -->
+                <input type="number" name="age" id="age" min="21" max="120">
+
+                <!-- enter h5 tag with 'must be age 21 or older to enter the contest' -->
+                <h5>You must be age 21 or older to enter the contest</h5>
             </div>
             <fieldset>
                 <legend>Your Contact Info</legend>
@@ -93,7 +102,7 @@
                         <option value="WY">Wyoming</option>
                     </datalist>
                     <label for="zip">Your Zipcode</label>
-                    <input type="text" id="zip" name="zip">
+                    <input type="number" id="zip" name="zip">
                 </div>
             </fieldset>
 
